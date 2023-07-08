@@ -2,7 +2,7 @@
 import Navbar from "./components/Navbar";
 import "./globals.css";
 import { AnimatePresence, motion } from "framer-motion";
-import transition from "./components/transition";
+import Transition from "./components/Transition";
 
 function Home() {
   return (
@@ -25,4 +25,4 @@ function Home() {
   );
 }
 
-export default transition(Home);
+export default Transition(Home);

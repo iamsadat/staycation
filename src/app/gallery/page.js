@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
-import transition from "../components/transition";
+import Transition from "../components/Transition";
 
 function Gallery() {
   return (
@@ -23,4 +23,4 @@ function Gallery() {
   );
 }
 
-export default transition(Gallery);
+export default Transition(Gallery);

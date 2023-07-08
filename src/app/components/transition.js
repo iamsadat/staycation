@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 
-const transition = (Component) => {
+const Transition = (Component) => {
   return () => (
     <>
       <Component />
@@ -33,4 +33,4 @@ const transition = (Component) => {
   );
 };
 
-export default transition;
+export default Transition;

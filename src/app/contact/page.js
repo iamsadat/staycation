@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
-import transition from "../components/transition";
+import Transition from "../components/Transition";
 
 function Contact() {
   return (
@@ -22,4 +22,4 @@ function Contact() {
     </div>
   );
 }
-export default transition(Contact);
+export default Transition(Contact);
