@@ -2,8 +2,9 @@
 
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
+import transition from "../transition";
 
-export default function About() {
+function About() {
   return (
     <div>
       <Navbar />
@@ -21,3 +22,5 @@ export default function About() {
     </div>
   );
 }
+
+export default transition(About);

@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@font-face {
+  font-family: "Roslindale Display Condensed";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Roslindale-DisplayCondensedBoldItalic-Testing.woff")
+    format("woff");
+}
+
+html {
+  font-family: "Roslindale Display Condensed", sans-serif;
+}
